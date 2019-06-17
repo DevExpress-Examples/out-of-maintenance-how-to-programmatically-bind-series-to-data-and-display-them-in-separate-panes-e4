@@ -28,7 +28,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Sub Main</StartupObject>
     <ProjectGuid>{A3C988FA-2FDD-439F-AF2F-0F8D33ECC444}</ProjectGuid>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -66,43 +66,43 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v17.2.Core">
+    <Reference Include="DevExpress.Charts.v19.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Core">
+    <Reference Include="DevExpress.Pdf.v19.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Office.v17.2.Core">
+    <Reference Include="DevExpress.Office.v19.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Core">
+    <Reference Include="DevExpress.RichEdit.v19.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Export">
+    <Reference Include="DevExpress.RichEdit.v19.1.Export">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v17.2.Core">
+    <Reference Include="DevExpress.Printing.v19.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v17.2">
+    <Reference Include="DevExpress.Data.v19.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Utils.v17.2">
+    <Reference Include="DevExpress.Utils.v19.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v17.2.Wizard">
+    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v17.2">
+    <Reference Include="DevExpress.XtraCharts.v19.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v17.2">
+    <Reference Include="DevExpress.XtraPrinting.v19.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v17.2.UI">
+    <Reference Include="DevExpress.XtraCharts.v19.1.UI">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v17.2">
+    <Reference Include="DevExpress.XtraEditors.v19.1">
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -158,6 +158,7 @@
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My</CustomToolNamespace>
     </None>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
